@@ -11,7 +11,7 @@ gradle jibDockerBuild --image=gcr.io/jamon-coderprabhu/jamon:v4
 docker push gcr.io/jamon-coderprabhu/jamon:v3
 
 
-gradle jibDockerBuild --image=gcr.io/kubegcp-256806/jamon:v3
+gradle jibDockerBuild --image=gcr.io/kubegcp-256806/jamon:v4
 docker push gcr.io/kubegcp-256806/jamon:v3
 kubectl apply -f k8s/coderprabhu-jamon-deployment.yaml  
 
